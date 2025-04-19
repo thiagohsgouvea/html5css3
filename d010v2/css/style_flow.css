@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+/* Custom font-face */
+@font-face {
+  font-family: "Idroid";
+  src: url("../fonts/idroid.otf") format("opentype");
+}
+
+/* Base styles */
+* {
+  margin: 0; /* Reset margin for all elements */
+  padding: 0; /* Reset padding for all elements */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Base font-family */
+  background-color: var(--primary-color);
+}
+
+:root {
+  /* Color variables */
+  --primary-color: #84e1ad;
+  --primary-color-b: #c5ebd6;
+  --secondary-color: #39cd7b;
+  --tertiary-color: #1a5c38;
+  --quaternary-color: #2fa866;
+
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+/* Header styles */
+header {
+  background-image: linear-gradient(
+    to top,
+    var(--tertiary-color),
+    var(--secondary-color)
+  );
+  color: var(--white-color);
+  min-height: 200px;
+  position: relative;
+  text-align: center; /* Center text in header */
+}
+
+/* Heading styles */
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25em;
+  font-weight: 700;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px var(--black-color);
+}
+
+h2 {
+  font-size: 1.875em;
+  color: var(--tertiary-color);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--tertiary-color);
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+
+  h2,
+  h3 {
+    font-size: calc(1.5em - 0.25rem); /* Responsive font scaling */
+  }
+}
+
+/* Navigation styles */
+nav {
+  position: absolute;
+  bottom: 10px;
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+nav a {
+  color: var(--white-color);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0 20px; /* Add padding to links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px var(--black-color);
+  margin: auto;
+  padding: 20px 20px 30px; /* Padding adjusted for clarity */
+  max-width: 900px; /* Use max-width instead of width for responsiveness */
+}
+
+p {
+  line-height: 1.5rem;
+  text-align: justify;
+  text-indent: 32px;
+}
+
+/* Highlighted link styles */
+a.highlight {
+  color: var(--tertiary-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a.highlight::after {
+  content: "";
+  background-image: url("../imgs/link-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+}
+
+/* Image and video styles */
+.picture,
+.image,
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  background-color: var(--tertiary-color);
+  margin: 10px -20px;
+  padding: 20px;
+}
+
+/* Extra section styles */
+#extra {
+  background-color: var(--primary-color-b);
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px var(--black-color);
+  margin: 15px 0;
+}
+
+#extra h4 {
+  background-color: var(--quaternary-color);
+  border-radius: 15px 15px 0 0;
+  color: var(--white-color);
+  padding: 10px;
+}
+
+#extra p {
+  padding: 15px;
+}
+
+/* List styles */
+div.list-os-names ul {
+  list-style: inside url("../imgs/checkmark.png");
+  padding-left: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--tertiary-color);
+  color: var(--white-color);
+  height: 30px;
+  margin-top: 20px;
+  font-size: 0.875em;
+  display: flex;
+  justify-content: center; /* Center footer content */
+  align-items: center; /* Center vertically */
+}
+
+footer > p {
+  margin: 0; /* Reset margin for footer text */
+}

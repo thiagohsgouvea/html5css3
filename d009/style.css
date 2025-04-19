@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 55px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* 2 colunas */
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.images a img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(66, 0, 0);
+  transition: transform 0.2s ease;
+}
+
+.images a img:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}

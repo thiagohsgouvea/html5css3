@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.green {
+  background-color: lightgreen;
+  color: green;
+}
+
+.yellow {
+  background-color: lightyellow;
+  color: burlywood;
+}
