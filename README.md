@@ -16,7 +16,7 @@ Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/)
 [Módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)  
 [d010 - Desafio Android](https://github.com/thiagohsgouvea/html5css3/tree/master/d010)  
 [d010v2 - Desafio Android v2](https://github.com/thiagohsgouvea/html5css3/tree/master/d010v2)  
-[d010v3 - Desafio Android v3git ](https://github.com/thiagohsgouvea/html5css3/tree/master/d010v3)
+[d010v3 - Desafio Android v3](https://github.com/thiagohsgouvea/html5css3/tree/master/d010v3)
 
 [Módulo 3](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
 
