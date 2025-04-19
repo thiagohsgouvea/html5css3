@@ -1,8 +1,8 @@
-# html5css3
+# HTML5 ![HTML5](imgs/icons8-html5.svg) CSS3 ![CSS3](imgs/icons8-css3.svg)
 
 Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/)
 
-### [Módulo 1](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-1-de-5-40-horas/)
+### [Módulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
 
 - [Desafio das Mensagens](https://github.com/thiagohsgouvea/html5css3/tree/master/d001)
 - [Desafio das Imagens](https://github.com/thiagohsgouvea/html5css3/tree/master/d002)
