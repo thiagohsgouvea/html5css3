@@ -76,12 +76,12 @@ nav > a {
   margin-right: 20px;
   padding: 10px;
   text-decoration: none;
-}
 
-nav > a:hover {
-  background-color: var(--fourth-color);
-  color: var(--sixth-color);
-  transition-duration: 0.25s;
+  &:hover {
+    background-color: var(--fourth-color);
+    color: var(--sixth-color);
+    transition-duration: 0.25s;
+  }
 }
 
 main {
@@ -142,12 +142,12 @@ main a {
   font-weight: bold;
   padding: 2px 6px;
   text-decoration: none;
-}
 
-main a:hover {
-  color: var(--fourth-color);
-  text-decoration: underline;
-  transition: 0.25s;
+  &:hover {
+    color: var(--fourth-color);
+    text-decoration: underline;
+    transition: 0.25s;
+  }
 }
 
 div.video {
@@ -201,9 +201,9 @@ footer a {
   color: white;
   font-weight: 600;
   text-decoration: none;
-}
 
-footer a:hover {
-  color: var(--first-color);
-  text-decoration: underline;
+  &:hover {
+    color: var(--first-color);
+    text-decoration: underline;
+  }
 }
