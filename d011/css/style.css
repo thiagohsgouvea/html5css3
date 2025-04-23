@@ -19,8 +19,4 @@ div.astronauta {
   background-repeat: no-repeat;
   background-size: auto;
   height: 100vh;
-
-  &:hover {
-    :hidden ;
-  }
 }
