@@ -22,11 +22,14 @@ Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/)
 
 ### [Módulo 3](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
 
-WIP
+- [Desafio do Astronauta](https://thiagohsgouvea.github.io/html5css3/d011)
+<!-- - [Desafio do Astronauta v2](https://thiagohsgouvea.github.io/html5css3/d011v2) -->
 
 ### [Módulo 4](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-4-de-5-40-horas/)
 
 ### [Módulo 5](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-5-de-5-40-horas/)
+
+### [Estudos Extras](https://thiagohsgouvea.github.io/html5css3/loginForm)
 
 ---
 
