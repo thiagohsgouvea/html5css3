@@ -29,7 +29,9 @@ Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/)
 
 ### [Módulo 5](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-5-de-5-40-horas/)
 
-### [Estudos Extras](https://thiagohsgouvea.github.io/html5css3/loginForm)
+### Estudos Extras
+
+- [UI modern Login form](https://thiagohsgouvea.github.io/html5css3/loginForm)
 
 ---
 
