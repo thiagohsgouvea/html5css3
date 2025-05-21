@@ -14,7 +14,9 @@ Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.cursoemvideo.com/)
 - [Desafio da Navegação](https://thiagohsgouvea.github.io/html5css3/d008)
 - [Desafio dos Vídeos ](https://thiagohsgouvea.github.io/html5css3/d009)
 
-### [Módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/){:target="\_blank"}
+### [Módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
+
+### <a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank">Modulo 2</a>
 
 - [Desafio Android](https://thiagohsgouvea.github.io/html5css3/d010)
 - [Desafio Android v2](https://thiagohsgouvea.github.io/html5css3/d010v2)
